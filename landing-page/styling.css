@@ -1,0 +1,194 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.section {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+div.section.header {
+    background-color: #1F2937;
+}
+
+div.navbar {
+    display: flex;
+    padding-top: 20px;
+}
+
+div.header.logo {
+    margin-right: auto;
+}
+
+div.header.logo a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+div.header.links {
+    padding-top: auto;
+}
+
+div.header.links a {
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5E7EB;
+    margin: 5px;
+    flex: 1;
+}
+
+div.hero {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+div.hero.desc {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+div.hero.desc h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    text-align: left;
+    margin: auto;
+}
+
+div.hero.desc span {
+    margin-top: 10px;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: left;
+}
+
+div.hero.desc button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 135px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+div.hero.image {
+    background-color: #e5e7eb70;
+    margin: auto;
+    text-align: center;
+}
+
+div.hero.image span {
+    padding: 75px;
+    width: 400px;
+    color: #F9FAF8;
+}
+
+div.section.info {
+    align-content: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+div.section.info h1 {
+    color: #1F2937;
+    text-align: center; 
+    font-size: 36px;
+    font-weight: 900;
+}
+
+div.info.cards {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+}
+
+div.info.cards > div.card {
+    margin: auto;
+    text-align: center;
+    color: #1F2937;
+}
+div.info.cards > div.card > div.image {
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+
+div.quote {
+    background-color: #E5E7EB;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+div.quote span ~ span {
+    font-weight: bold;
+    text-align: end;
+}
+
+section.call {
+    display: flex;
+    margin: auto;
+}
+
+div.call div.call {
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 10%;
+    padding-left: 10%;  
+    padding-right: 10%;
+    color: #F9FAF8;
+    text-align: left;
+    align-items: center;
+}
+
+div.call div.call h5 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+div.call div.call button {
+    margin-left: 30%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
